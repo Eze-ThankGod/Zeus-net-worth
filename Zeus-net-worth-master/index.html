@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Networth Calculator</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+  <body>
+   
+    <div id="container" class="container">
+        <h1> Networth Calculator</h1>
+    <form>
+<div class="text-box">
+     <input type="text" placeholder="Current assets"  id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
+      </div>
+
+      <div class="text-box">
+          <input type="text" placeholder="Cash At Bank"   id="cash" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
+      </div>
+
+      <div class="text-box">
+      <input type="text" placeholder="Current liabilities"  id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
+      </div>
+      <div class="text-box">
+      <p style="color:white;">Your Networth is : <span id="demo"></span></p>
+      </div>
+    </form>
+  
+    </div>
+
+  </body>
+  <script src="js/srcipt.js"></script>
+</html>
